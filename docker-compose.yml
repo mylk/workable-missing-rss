@@ -6,3 +6,4 @@ services:
             dockerfile: build/Dockerfile
         ports:
             - "8002:8002"
+        restart: always
